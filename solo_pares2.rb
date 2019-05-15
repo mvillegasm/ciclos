@@ -1,6 +1,7 @@
-
 numero = ARGV[0].to_i
+i = 1
 
-numero.times do |i|
+while i <= numero
   puts i + i
+  i = i + 1
 end
